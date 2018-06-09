@@ -1,14 +1,14 @@
-.shadow1 { 
+.shadow1 {
   text-shadow: 16px 8px 25px rgb(0, 119, 255), 8px -4px 8px rgb(0, 255, 234);
-  text-decoration-style: underline; 
-  }
+  text-decoration-style: underline;
+}
 
 .shadow2 {
   text-shadow: 16px 8px 25px rgb(0, 255, 255), 8px -4px 8px rgb(0, 255, 106);
 }
 
 body {
-  font-size: 20px;
+  font-size: 5rem;
   color: #2C2F34;
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 700;
@@ -28,18 +28,14 @@ body {
 
 .title {
   font-family: "Indie Flower", cursive;
-  font-size: 50px;
+  font-size: 2.5rem;
   text-decoration: underline;
   font-style: italic;
 }
 
-img{
-  height: 500px;
-  width: 300px;
-}
-
-p {
-  font-size: 100px;
+img {
+  width: 6.25rem;
+  box-shadow: 8px 8px 25px rgb(0, 119, 255), 8px -4px 8px rgb(0, 255, 234);
 }
 
 .blue {
@@ -55,21 +51,50 @@ p {
 }
 
 .box-1 {
-  padding: 50px;
+  padding: .625rem;
   border: solid #36DAF3;
-  border-width: 300px;
+  border-width: 1.25rem;
 }
 
 .box-2 {
-  padding: 50px ;
+  padding: .625rem;
   border: solid #2A7BF0;
-  border-width: 300px;
+  border-width: 1.25rem;
 }
 
 .box-3 {
-  padding: 50px;
-  border: solid rgb(77, 10, 185); 
-  border-width: 40px;
+  padding: .625rem;
+  border: solid rgb(77, 10, 185);
+  border-width: 1.25rem;
 }
 
-/* This is a comment! */
+@media (min-width: 768px) {
+  .box-3, .box-2, .box-1 {
+    padding: 1rem;
+    border-width: 3.5rem;
+  }
+
+  img {
+    width: 25rem;
+    box-shadow: 8px 8px 25px rgb(0, 119, 255), 8px -4px 8px rgb(0, 255, 234);
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .box-3, .box-2, .box-1 {
+    padding: 4rem;
+    border-width: 8rem;
+  }
+
+  img {
+    width: 30rem;
+  }
+
+  .title {
+    font-size: 3.5rem;
+  }
+}
