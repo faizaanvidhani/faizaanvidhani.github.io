@@ -1,0 +1,75 @@
+.shadow1 { 
+  text-shadow: 16px 8px 25px rgb(0, 119, 255), 8px -4px 8px rgb(0, 255, 234);
+  text-decoration-style: underline; 
+  }
+
+.shadow2 {
+  text-shadow: 16px 8px 25px rgb(0, 255, 255), 8px -4px 8px rgb(0, 255, 106);
+}
+
+body {
+  font-size: 20px;
+  color: #2C2F34;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.frank {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+  font-family: "Indie Flower", cursive;
+  font-size: 50px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+img{
+  height: 500px;
+  width: 300px;
+}
+
+p {
+  font-size: 100px;
+}
+
+.blue {
+  color: darkslategray;
+}
+
+.center {
+  text-align: center;
+}
+
+.bigger {
+  font-size: 30px;
+}
+
+.box-1 {
+  padding: 50px;
+  border: solid #36DAF3;
+  border-width: 300px;
+}
+
+.box-2 {
+  padding: 50px ;
+  border: solid #2A7BF0;
+  border-width: 300px;
+}
+
+.box-3 {
+  padding: 50px;
+  border: solid rgb(77, 10, 185); 
+  border-width: 40px;
+}
+
+/* This is a comment! */
