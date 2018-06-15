@@ -68,6 +68,22 @@ img {
   border-width: 1.25rem;
 }
 
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+  animation-duration: 1.5s;
+}
+
 @media (min-width: 768px) {
   .box-3, .box-2, .box-1 {
     padding: 1rem;
@@ -93,7 +109,7 @@ img {
   img {
     width: 30rem;
   }
-
+  
   .title {
     font-size: 3.5rem;
   }
